@@ -1,0 +1,1 @@
+Test some detection of some of the rules
