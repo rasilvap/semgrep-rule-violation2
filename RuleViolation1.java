@@ -18,5 +18,6 @@ class BadDocumentBuilderFactory{
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         //ruleid:documentbuilderfactory-external-general-entities-true
         dbf.setFeature("http://xml.org/sax/features/external-general-entities" , true);
+        
     }
 }
