@@ -17,6 +17,7 @@ def bad_deserialization
     
     obj25 = YAML.load(data, safe: true)
     printf(obj25)
+    
 
 
     filename = File.read("test.txt")
