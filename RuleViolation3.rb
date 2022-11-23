@@ -13,7 +13,7 @@ def bad_deserialization
     # ok: bad-deserialization-yaml
     obj = YAML.load(data, safe: true)
     obj25 = YAML.load(data, safe: true)
-    
+    printf(obj25)
 
     filename = File.read("test.txt")
     data = YAML.dump(filename)
