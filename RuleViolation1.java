@@ -11,7 +11,6 @@ class GoodDocumentBuilderFactory {
         //ok:documentbuilderfactory-external-general-entities-true
         
         
-        
         dbf.setFeature("http://xml.org/sax/features/external-general-entities" , false);
     }
 }
